@@ -1,0 +1,28 @@
+server:
+  port: ${PORT}
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/alinepazz/Sistema-ead-microservice-config-server
+          default-label: master
+          username: ${GIT_USERNAME}
+          password: ${GIT_PASSWORD}
+encrypt:
+  key: fPgS[-<!{Vwo`5>uOt5e@"u2JO'ZnD^a'={c_d}~jltd#ch8p%a?R5lecX1/C0V
+
+ead:
+  configServer:
+    username: ${CONFIG_SERVER_USERNAME}
+    password: ${CONFIG_SERVER_PASSWORD}
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL}
+  instance:
+    hostname: ${APP_DOMAIN_NAME}
+    non-secure-port: 80
+
