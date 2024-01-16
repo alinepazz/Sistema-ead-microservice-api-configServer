@@ -8,7 +8,7 @@ spring:
         git:
           uri: https://github.com/alinepazz/Sistema-ead-microservice-config-server
           default-label: master
-  ead:
+ead:
   configServer:
     username: configserver
     password: 'ead123cs'
