@@ -19,10 +19,11 @@ as configurações de todos os microservices que compõem o projeto EAD.
 - Spring Config Server
 - Spring Security
 
-# Como executar o projeto
+## Como executar o projeto
 - Pré-requisitos: Java 11
-- Ter o projeto Service Registry em execução
-
+- Ter os seguinte projetos em execução:
+    - Service Registry
+    
 ```bash
 # clonar repositório
 git clone https://github.com/alinepazz/sistema-ead-microservice-api-configserver.git
